@@ -1,1 +1,1 @@
-# GNDEC.
+# GNDEC
