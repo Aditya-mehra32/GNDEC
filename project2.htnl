@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inserting a Video and an Image on a Webpage</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #0b8fdb;
+        }
+
+        img, video {
+            margin: 10px auto;
+            max-width: 50%;
+            display: block;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Inserting a Video and an Image on a Webpage</h1>
+
+    <img src="https://www.indiewire.com/wp-content/uploads/2023/07/oppenheimer-cillian.webp" alt="Sample Image">
+
+    <video controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <footer>
+        Name: <i>ADITYA</i><br>
+        URN: 2434905
+    </footer>
+
+</body>
+</html>
