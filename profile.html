@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DEVRATH</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #d4fc79, #96e6a1);
+      color: #333;
+      animation: fadeIn 1s ease;
+      padding: 20px;
+    }
+
+    #uh {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      animation: slideDown 1s ease;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #007BFF;
+      text-shadow: 2px 2px #ccc;
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 30px;
+      animation: fadeInUp 1s ease;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      background: #fff;
+      padding: 10px 20px;
+      border-radius: 30px;
+      color: #007BFF;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .nav-links a:hover {
+      background: #ff0037;
+      color: #fff;
+      transform: scale(1.1);
+    }
+
+    img {
+      display: block;
+      margin: 0 auto 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      animation: fadeIn 2s ease;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      line-height: 1.8;
+      font-size: 1.1em;
+      animation: fadeInUp 1.2s ease;
+      text-align: justify;
+    }
+
+    .link-button {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .link-button a {
+      text-decoration: none;
+      color: #fff;
+      background-color: #28a745;
+      padding: 12px 25px;
+      border-radius: 30px;
+      transition: background-color 0.3s ease, transform 0.2s;
+      display: inline-block;
+    }
+
+    .link-button a:hover {
+      background-color: #218838;
+      transform: scale(1.05);
+    }
+
+    .link-button button {
+      background: none;
+      border: none;
+      padding: 0;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideDown {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <center id="uh">
+    <h1>DEVRATH</h1>
+  </center>
+
+  <div class="nav-links">
+    <h2><a href="skill.html">SKILL</a></h2>
+    <h2><a href="contact.html">CONTACT US</a></h2>
+    <h2><a href="login.html">FORM LOGIN</a></h2>
+  </div>
+
+  <img src="WhatsApp Image 2025-08-27 at 11.49.17 PM.jpeg" width="800" height="800" alt="Sample Image">
+
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate placeat delectus assumenda,
+    aut a repellat distinctio ad molestiae voluptatem totam impedit exercitationem eligendi! 
+    Vero, ut! Ex, accusantium? Harum impedit quibusdam hic quod ullam mollitia quia magni debitis, 
+    totam libero amet id corporis veritatis error atque consequuntur nisi molestiae commodi! Veniam?
+  </p>
+
+  <div class="link-button">
+    <a href="https://www.google.com/" target="_blank">Click here to open Google</a>
+  </div>
+
+  <div class="link-button">
+    <button>
+      <a href="https://www.google.com/" target="_blank">GOOGLE</a>
+    </button>
+  </div>
+
+</body>
+</html>
